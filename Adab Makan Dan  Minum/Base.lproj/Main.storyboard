@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DVp-vz-h04">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zNe-If-w6R">
+            <objects>
+                <viewController id="zmx-Uy-IGB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ePW-hq-fC4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geometry-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="hxa-Gz-shc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ksg-IK-cH8">
+                                <rect key="frame" x="67" y="168" width="240" height="242"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5ub-MN-V4p"/>
+                                    <constraint firstAttribute="height" constant="242" id="XJq-Oe-qgT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adab Makan Dan Minum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPy-7F-90e">
+                                <rect key="frame" x="65" y="88" width="246" height="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Versi Alpha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSg-TR-TWy">
+                                <rect key="frame" x="140" y="139" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q5s-nX-3uc">
+                                <rect key="frame" x="68" y="454" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="IC1-xj-osm"/>
+                                    <constraint firstAttribute="width" constant="240" id="dhP-wR-ZEY"/>
+                                </constraints>
+                                <string key="text">Aplikasi ini di buat untuk mereka yang belum tau adab makan / lupa bagaimana cara makan dan aplikasi ini di buat karena project kecil kecilan jadi nya begini deh</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="bottom" secondItem="hxa-Gz-shc" secondAttribute="bottom" id="3Fy-yN-icC"/>
+                            <constraint firstItem="hxa-Gz-shc" firstAttribute="top" secondItem="fPf-3e-TC9" secondAttribute="top" id="6z6-Be-n1W"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="trailing" secondItem="hxa-Gz-shc" secondAttribute="trailing" id="8UC-NT-Elb"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="trailing" secondItem="XSg-TR-TWy" secondAttribute="trailing" constant="140" id="Anm-Ap-Iup"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="trailing" secondItem="ZPy-7F-90e" secondAttribute="trailing" constant="64" id="Env-rp-OC8"/>
+                            <constraint firstItem="Q5s-nX-3uc" firstAttribute="top" secondItem="Ksg-IK-cH8" secondAttribute="bottom" constant="44" id="HK2-8a-O8O"/>
+                            <constraint firstItem="ZPy-7F-90e" firstAttribute="leading" secondItem="fPf-3e-TC9" secondAttribute="leading" constant="65" id="Q49-Gn-KP9"/>
+                            <constraint firstItem="XSg-TR-TWy" firstAttribute="leading" secondItem="fPf-3e-TC9" secondAttribute="leading" constant="140" id="SDS-sm-LdY"/>
+                            <constraint firstItem="ZPy-7F-90e" firstAttribute="top" secondItem="fPf-3e-TC9" secondAttribute="top" constant="24" id="V8k-vY-UrU"/>
+                            <constraint firstItem="Q5s-nX-3uc" firstAttribute="leading" secondItem="fPf-3e-TC9" secondAttribute="leading" constant="68" id="XTc-qs-b4m"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="bottom" secondItem="Q5s-nX-3uc" secondAttribute="bottom" constant="85" id="d1e-vt-bLB"/>
+                            <constraint firstItem="hxa-Gz-shc" firstAttribute="leading" secondItem="fPf-3e-TC9" secondAttribute="leading" id="gd7-7m-rHc"/>
+                            <constraint firstItem="Ksg-IK-cH8" firstAttribute="leading" secondItem="fPf-3e-TC9" secondAttribute="leading" constant="67" id="mMB-5f-dSl"/>
+                            <constraint firstItem="XSg-TR-TWy" firstAttribute="top" secondItem="ZPy-7F-90e" secondAttribute="bottom" constant="25" id="qch-I8-ejR"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="trailing" secondItem="Ksg-IK-cH8" secondAttribute="trailing" constant="68" id="s0v-QK-4hh"/>
+                            <constraint firstItem="Ksg-IK-cH8" firstAttribute="top" secondItem="XSg-TR-TWy" secondAttribute="bottom" constant="8" id="uYg-V9-OCs"/>
+                            <constraint firstItem="fPf-3e-TC9" firstAttribute="trailing" secondItem="Q5s-nX-3uc" secondAttribute="trailing" constant="67" id="zpl-nf-USI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fPf-3e-TC9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z4P-gl-Cq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-516" y="135.38230884557723"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Adab_Makan_Dan__Minum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_20171102_075604_642.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mfR-Yz-REE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-Vi-dM1">
+                                <rect key="frame" x="117" y="332" width="141" height="40"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="9xT-fh-aSn"/>
+                                    <constraint firstAttribute="height" constant="40" id="pRJ-B9-LeX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="ADAB 2"/>
+                                <connections>
+                                    <segue destination="arb-br-YHg" kind="show" id="8bD-S1-FJa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyh-gE-v5d">
+                                <rect key="frame" x="106" y="531" width="163" height="36"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="ABOUT DEVELOP"/>
+                                <connections>
+                                    <segue destination="SA9-RQ-eqO" kind="show" id="PiV-CE-4X5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQu-iF-M3P">
+                                <rect key="frame" x="106" y="458" width="163" height="38"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="HAP-SP-5X4"/>
+                                    <constraint firstAttribute="width" constant="163" id="yeV-q2-fox"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="ABOUT APP"/>
+                                <connections>
+                                    <segue destination="zmx-Uy-IGB" kind="show" id="odn-QQ-Yf1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI2-hL-PqP">
+                                <rect key="frame" x="106" y="177" width="163" height="44"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="62s-a7-eoB"/>
+                                    <constraint firstAttribute="width" constant="163" id="hIu-17-DUr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="ADAB 1"/>
+                                <connections>
+                                    <segue destination="9YV-qT-QHh" kind="show" id="FYe-jn-kcp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mfR-Yz-REE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3b5-54-jZc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OQu-iF-M3P" secondAttribute="trailing" constant="106" id="A4X-vA-Gv4"/>
+                            <constraint firstItem="OQu-iF-M3P" firstAttribute="top" secondItem="mfR-Yz-REE" secondAttribute="bottom" constant="-209" id="AzX-km-I3x"/>
+                            <constraint firstItem="mfR-Yz-REE" firstAttribute="top" secondItem="cI2-hL-PqP" secondAttribute="bottom" constant="-157" id="BnD-wt-84U"/>
+                            <constraint firstItem="8yg-Vi-dM1" firstAttribute="top" secondItem="cI2-hL-PqP" secondAttribute="bottom" constant="111" id="IXp-P1-j8W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cI2-hL-PqP" secondAttribute="trailing" constant="106" id="MfB-Fl-d9k"/>
+                            <constraint firstItem="cI2-hL-PqP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="Mmj-fT-0oR"/>
+                            <constraint firstItem="8yg-Vi-dM1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="PHg-KH-qeb"/>
+                            <constraint firstItem="pyh-gE-v5d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="VXy-tS-Pfp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyh-gE-v5d" secondAttribute="trailing" constant="106" id="Ytj-xT-5zD"/>
+                            <constraint firstItem="pyh-gE-v5d" firstAttribute="top" secondItem="OQu-iF-M3P" secondAttribute="bottom" constant="35" id="czS-6W-FUz"/>
+                            <constraint firstItem="cI2-hL-PqP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="f69-ER-G6c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyh-gE-v5d" secondAttribute="bottom" constant="100" id="fze-ws-RLX"/>
+                            <constraint firstItem="OQu-iF-M3P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="iSa-CN-oYV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mfR-Yz-REE" secondAttribute="trailing" id="l3y-fb-d6E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8yg-Vi-dM1" secondAttribute="trailing" constant="117" id="o6a-aI-OV0"/>
+                            <constraint firstItem="OQu-iF-M3P" firstAttribute="top" secondItem="8yg-Vi-dM1" secondAttribute="bottom" constant="86" id="xUx-v7-vV4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Adab Makan Dan Minum-->
+        <scene sceneID="tJD-4p-OXy">
+            <objects>
+                <viewController id="ymA-tj-luZ" customClass="ALVIDViewController" customModule="Adab_Makan_Dan__Minum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fxy-Af-upC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woodTextureBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="bMg-fd-YCh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6l1-Me-XzL">
+                                <rect key="frame" x="16" y="547" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="exit.png"/>
+                                <connections>
+                                    <action selector="ALERT:" destination="ymA-tj-luZ" eventType="touchUpInside" id="ejg-Za-gkr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="br4-GP-c0h">
+                                <rect key="frame" x="137" y="265" width="100" height="49"/>
+                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="31"/>
+                                <state key="normal" title="MULAI"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="CCA-EJ-Ud8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRM-ah-owd">
+                                <rect key="frame" x="144" y="352" width="75" height="49"/>
+                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="31"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="playbtn:" destination="ymA-tj-luZ" eventType="touchUpInside" id="HDZ-vX-5af"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bMg-fd-YCh" firstAttribute="trailing" secondItem="Wy3-2S-FL4" secondAttribute="trailing" id="2BJ-Zj-FW0"/>
+                            <constraint firstItem="Wy3-2S-FL4" firstAttribute="bottom" secondItem="lRM-ah-owd" secondAttribute="bottom" constant="266" id="6qO-Za-FRD"/>
+                            <constraint firstItem="lRM-ah-owd" firstAttribute="leading" secondItem="Wy3-2S-FL4" secondAttribute="leading" constant="144" id="9uG-fJ-l8N"/>
+                            <constraint firstItem="bMg-fd-YCh" firstAttribute="top" secondItem="Wy3-2S-FL4" secondAttribute="top" id="Bqc-Az-iEc"/>
+                            <constraint firstItem="lRM-ah-owd" firstAttribute="top" secondItem="br4-GP-c0h" secondAttribute="bottom" constant="38" id="Ko6-AF-7Uz"/>
+                            <constraint firstItem="Wy3-2S-FL4" firstAttribute="trailing" secondItem="br4-GP-c0h" secondAttribute="trailing" constant="138" id="Pf8-jV-FSL"/>
+                            <constraint firstItem="bMg-fd-YCh" firstAttribute="leading" secondItem="Wy3-2S-FL4" secondAttribute="leading" id="deu-nB-Ez6"/>
+                            <constraint firstItem="bMg-fd-YCh" firstAttribute="bottom" secondItem="Wy3-2S-FL4" secondAttribute="bottom" id="jaA-xN-MHc"/>
+                            <constraint firstItem="br4-GP-c0h" firstAttribute="leading" secondItem="Wy3-2S-FL4" secondAttribute="leading" constant="137" id="kTN-hN-FyZ"/>
+                            <constraint firstItem="br4-GP-c0h" firstAttribute="top" secondItem="Wy3-2S-FL4" secondAttribute="top" constant="201" id="nWX-2k-c20"/>
+                            <constraint firstItem="Wy3-2S-FL4" firstAttribute="trailing" secondItem="lRM-ah-owd" secondAttribute="trailing" constant="156" id="tpO-FB-SqM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wy3-2S-FL4"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Adab Makan Dan Minum" id="6Xm-7S-sVO">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="w35-3X-BQH"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvM-j7-cwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="130.88455772113943"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iGn-qb-DyE">
+            <objects>
+                <viewController id="SA9-RQ-eqO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P42-P0-c1n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Id Gambar.png" translatesAutoresizingMaskIntoConstraints="NO" id="evm-86-ULI">
+                                <rect key="frame" x="67" y="89" width="240" height="206"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="H1P-95-PcG"/>
+                                    <constraint firstAttribute="height" constant="206" id="z1A-F0-9zx"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dN0-mn-WI9">
+                                <rect key="frame" x="16" y="303" width="343" height="195"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="0.86635809075342463" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="195" id="Lgn-E9-ka7"/>
+                                    <constraint firstAttribute="width" constant="343" id="g2H-wB-l2n"/>
+                                </constraints>
+                                <string key="text">NAMA : TUBAGUS MUAHAMAD HABIBUROHMAN ASAL : BANTEN, TANGERANG SELATAN LAHIR : 04/06/2003 SEKOLAH : IDN BOARDING SCHOOL E-MAIL : habibthea2015@gmail.com Sosmed : h4b1b_2364   </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iQ7-lF-44s" firstAttribute="trailing" secondItem="dN0-mn-WI9" secondAttribute="trailing" constant="16" id="6IX-PW-IRW"/>
+                            <constraint firstItem="iQ7-lF-44s" firstAttribute="trailing" secondItem="evm-86-ULI" secondAttribute="trailing" constant="68" id="DEG-vK-v11"/>
+                            <constraint firstItem="evm-86-ULI" firstAttribute="leading" secondItem="iQ7-lF-44s" secondAttribute="leading" constant="67" id="I7n-Ka-qhG"/>
+                            <constraint firstItem="iQ7-lF-44s" firstAttribute="bottom" secondItem="dN0-mn-WI9" secondAttribute="bottom" constant="169" id="XBx-gE-lWb"/>
+                            <constraint firstItem="evm-86-ULI" firstAttribute="top" secondItem="iQ7-lF-44s" secondAttribute="top" constant="25" id="XyL-p8-ZAs"/>
+                            <constraint firstItem="dN0-mn-WI9" firstAttribute="top" secondItem="evm-86-ULI" secondAttribute="bottom" constant="8" id="hT4-0u-QYI"/>
+                            <constraint firstItem="dN0-mn-WI9" firstAttribute="leading" secondItem="iQ7-lF-44s" secondAttribute="leading" constant="16" id="j5w-eM-APU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iQ7-lF-44s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nD3-XD-9NI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-487.19999999999999" y="909.89505247376314"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oSf-ci-eei">
+            <objects>
+                <viewController id="arb-br-YHg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B1s-L7-pPJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aSC-gh-Qo2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">1. Makanan Seorang Muslim: Baik dan Halal 
+a. Firman Allah Ta’ala, “Hai orang-orang yang beriman, makanlah di antara rezeki yang baik-baik yang Kami berikan kepadamu dan bersyukurlah kepada Allah, jika benar-benar hanya kepada Allah kamu menyembah.” (QS. Al-Baqarah: 172)
+
+b. Firman Allah Ta’ala, “(Yaitu) orang-orang yang mengikut Rasul, Nabi yang ummi yang (namanya) mereka dapati tertulis di dalam Taurat dan Injil yang ada di sisi mereka, yang menyuruh mereka mengerjakan yang ma’ruf dan melarang mereka dari mengerjakan yang mungkar dan menghalalkan bagi mereka segala yang baik dan mengharamkan bagi mereka segala yang buruk.” (QS. Al-A’raf: 157)  2. Membaca Basmalah Saat Makan dan Memulai dengan yang Terdekat 
+a. Dari Umar bin Abu Salamah r.a, ia berkata, “Saat masih kecil di pangkuan Rasulullah, tanganku bergerak ke sana- ke mari di piring, kemudian Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda, “Wahai anak, ucapkanlah ‘Bismillah,’ makanlah dengan tangan kanan dan makanlah yang terdekat denganmu.” Setelah itu berubahlah cara makanku seperti itu.
+
+b. Dari Ibnu Mas’ud r.a berkata, “Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda,
+
+“Siapa yang lupa untuk menyebut nama Allah ketika memulai makan, maka hendaklah ia mengucapkan saat ingat, ‘Bimillahi fi awwalihi wa akhirhi (Dengan nama Allah di awal dan di akhir makanan).” Maka ia seperti menghadapi makanan baru lagi dan mencegah apa yang tadi sudah didapat setan.”
+
+3. Makan dan Minum dengan Menggunakan Tangan Kanan
+Dari Ibnu Umar r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda,
+
+“Jika salah seorang dari kalian makan, maka makanlah dengan menggunakan tangan kanan, dan jika ia minum, maka minumlah dengan menggunakan tangan kanan, karena sesungguhnya setan itu makan dan minum dengan menggunakan tangan kiri.”
+ 4. Cara Memberi Minum Orang Lain 
+Dari Anas bin Malik r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam diberi susu penuh, sedang di sebelah kanannya seorang Arab Badui dan di sebelah kirinya Abu Bakar. Beliau meminumnya kemudian memberikannya kepada Arab Badui seraya beliau bersabda, “Dari kanan kemudian ke kanannya.”  5. Tidak Makan dan Minum dari Tempat yang Terbuat dari Emas dan Perak 
+Dari Hudzaifah r.a, ia berkata, “Aku mendengar Nabi Shalallahu ‘Alaihi wa Sallam bersabda, ‘Janganlah kamu memakai sutra dan kain diibaj ‘sutra yang lebih halus’; dan janganlah minum dengan menggunakan bejana yang terbuat dari emas atau perak. Janganlah makan dengan menggunakan piring dari emas atau perak, karena perabot itu untuk mereka (orang-orang kafir) di dunia, dan untuk kita di akhirat.”
+ 6. Kadar (Ukuran) Makan yang Baik
+
+Dari Miqdam bin Ma’dikarib r.a, ia berkata, “Aku mendengar Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda, ‘Tidaklah anak Adam memenuhi bejana lebih buruk dari memenuhi perutnya. Cukuplah bagi bani Adam makanan yang dapat menegakkan tulang rusuknya, kalau tidak boleh tidak (harus memenuhi perutnya) hendaklah 1/3 (perutnya) untuk makanan, 1/3 untuk minuman dan 1/3 lagi untuk nafasnya.” 
+
+7. Tidak Mencaci Makanan
+
+Dari Abu Hurairah r.a, ia berkata, “Rasulullah Shalallahu ‘Alaihi wa Sallam tidak pernah mencaci makanan sama sekali, jika beliau tidak menyukainya maka beliau memakannya, jika beliau tidak suka beliau meninggalkannya.”
+
+8. Tidak Makan Secara Berlebihan
+
+Dari Ibnu Umar r.a, Nabi Shalallahu ‘Alaihi wa Sallam bersabda,
+“Orang kafir makan dengan tujuh usus, sedangkan orang mukmin makan dengan satu usus.” 
+
+9. Keistimewaan Makan dan Membaginya
+
+a. Dari Jabir bin Abdullah r.a, ia berkata, “Aku mendengar Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda, ‘(Jatah) makanan satu orang cukup untuk dua orang, makanan dua orang cukup untuk empat orang, dan makanan empat orang cukup untuk delapan orang.”
+
+b. Dari Abdullah bin Amr r.a, seorang lelaki bertanya kepada Nabi Shalallahu ‘Alaihi wa Sallam tentang perbuatan yang paling baik dalam Islam. Beliau bersabda,
+“Memberi makanan, dan mengucapkan salam kepada orang yang engkau kenal dan orang yang tidak engkau kenal.”
+
+c. Dari Abu Ayyub Al-Anshari r.a, ia berkata, “Jika Rasulullah Shalallahu ‘Alaihi wa Sallam menerima makanan beliau memakan sebagian dan mengirimkan sisanya kepadaku.”
+
+10. Memuji Hidangan 
+Dari Jabir bin Abdullah r.a, Nabi SAW bertanya kepada tuan rumah tentang lauk-pauk yang dihidangkan. Mereka berkata, “Kita tidak memiliki makanan kecuali khal (cuka, sejenis asinan).” Kemudian beliau minta agar dibawakan khal, dan memakannya seraya bersabda, “Sebaik-baik lauk-pauk adalah khal dan sebaik-baik lauk pauk adalah khal.”
+
+11. Tidak Meniup Minuman 
+Dari Abu Said Al-Khudri r.a, ia berkata, “Rasulullah Shalallahu ‘Alaihi wa Sallam melarang minum dari lubang tempat air, dan melarang meniup minuman.”
+
+12. Pemberi Air Minum Hendaknya Meminum Terakhir Kali 
+Dari Abu Qatadah r.a berkata, “Rasulullah berkhutbah kepada kami dan di akhir khutbahnya beliau bersabda, “Sesungguhnya orang yang memberi minum suatu kaum maka dialah yang minum terakhir kali.”</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aSC-gh-Qo2" firstAttribute="top" secondItem="7ZH-dt-cml" secondAttribute="top" id="OJh-iw-KDa"/>
+                            <constraint firstItem="7ZH-dt-cml" firstAttribute="bottom" secondItem="aSC-gh-Qo2" secondAttribute="bottom" id="WIo-Hj-YlI"/>
+                            <constraint firstItem="aSC-gh-Qo2" firstAttribute="leading" secondItem="7ZH-dt-cml" secondAttribute="leading" id="leW-c1-SHA"/>
+                            <constraint firstItem="7ZH-dt-cml" firstAttribute="trailing" secondItem="aSC-gh-Qo2" secondAttribute="trailing" id="zlC-2M-oH0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7ZH-dt-cml"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X3w-w1-esT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="M3y-ay-e4Y">
+            <objects>
+                <viewController id="9YV-qT-QHh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="19k-Pu-TSY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HgP-22-w0U">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">1. Berkumpul untuk Makan Bersama
+
+Dari Wahsyi bin Harb, dari bapaknya, dari kakeknya, “Para sahabat Rasulullah berkata, ‘Ya Rasulullah, kami makan namun tidak merasa kenyang.’ Beliau bersabda, ‘Mungkin kalian berpencar-pencar (ketika makan).’ Mereka berkata, ‘Benar.’ Beliau bersabda, “Berkumpullah ketika makan, dan sebutlah nama Allah atasnya, maka Dia akan memberikan makan kalian.”
+
+2. Menghormati Tamu dan Melayaninya Sendiri
+
+a. Firman Allah Ta’ala, “Sudahkah sampai kepadamu (Muhammad) cerita tentang tamu Ibrahim (yaitu malaikat-malaikat) yang dimuliakan? (Ingatlah) ketika mereka masuk ke tempatnya lalu mengucapkan: “Salaamun”. Ibrahim menjawab: “Salaamun (kamu) adalah orang-orang yang tidak dikenal”. Maka dia pergi dengan diam-diam menemui keluarganya, kemudian dibawanya daging anak sapi gemuk. Lalu dihidangkannya kepada mereka. Ibrahim lalu berkata: “Silahkan anda makan“. (QS. Adz-Dzariyat: 24-27)
+
+b. Dari Abu Syuraih Al-Ka’bi r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda,
+“Siapa yang beriman kepada Allah dan hari akhir, maka hendaklah ia menghormati tamunya, masa pelayanannya sehari semalam, masa bertamunya tiga hari dan setelah itu adalah sedekah, tidak halal baginya (tamu) untuk menetap di tempatnya sampai membuat tuan rumah terganggu.”
+
+3. Posisi Duduk ketika Makan
+
+a. Dari Abu Juhaifah r.a, ia berkaa, “Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda, “Sesungguhnya aku makan tidak dengan bersandar.”
+
+b. Dari Anas r.a berkata, “Aku melihat Rasulullah Shalallahu ‘Alaihi wa Sallam duduk dengan menegakkan kedua betis dan paha (muq’i) ketika makan kurma.”
+
+c. Dari Abdullan bin Bisr r.a, ia berkata, “Rasulullah Shalallahu ‘Alaihi wa Sallam diberi hadiah daging kambing, saat memakan daging tersebut, beliau duduk bersimpuh. Seorang Badui berkata, ‘Duduk (pertemuan) apa ini? Beliau bersabda, “Sesungguhnya Allah menjadikanku hamba yang mulia, tidak menjadikanku sebagai orang yang diktator dan pembangkang.”
+
+4. Sifat Makan Orang Sibuk
+
+Dari Anas r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam diberi kurma, kemudian Rasulullah membaginya sambil berjalan tergesa-gesa, kemudian memakannya dengan cepat. Dalam riwayat Zuhair, “Makan dengan terburu-buru.” 27
+5. Kencangkan (Tutup) Minuman dan Menyebut Nama Allah Saat Tidur
+
+Dari Jabir r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam bersabda, “Tutuplah pintumu, sebutlah nama Allah, matikan lampu dan sebutlah nama Allah, kencangkan (tutup) minumanmu dan sebutlah nama Allah, tutuplah bejanamu dan sebutlah nama Allah, meski kamu menutupinya dengan sesuatu (yang bukan tutupnya).”
+
+5. Makan Bersama Pembantu
+
+Dari Abu Hurairah r.a, Nabi Shalallahu ‘Alaihi wa Sallam bersabda, “Jika pembantu salah seorang di antara kalian datang membawa makanan, jika kalian tidak memintanya duduk bersama maka hendaklah mengambilkan untuknya satu makanan atau dua makanan, sesuap atau dua suap. Karena dialah yang menangani panasnya makanan dan pengolahannya.”
+
+6. Mendahulukan Makan Malam daripada Shalat Isya
+
+Dari Anas bin Malik r.a, dari Nabi Shalallahu ‘Alaihi wa Sallam, beliau bersabda,
+“Jika makan malam telah dihidangkan sedang shalat (Isya) sudah didirikan maka dahulukanlah makan malam.” 30
+
+7. Tata Cara Makan yang Benar di Sebuah Nampan
+
+Dari Ibnu Abbas r.a, Nabi Shalallahu ‘Alaihi wa Sallam berkata, “Jika salah seorang di antara kalian mengonsumsi makanan di sebuah nampan, maka jangan memulainya dari bagian tengah, tapi dari bagian pinggir, karena keberkahan terdapat di bagian tengah.”
+
+8. Bacaan Setelah Makan
+
+Dari Muadz bin Anas r.a, Rasulullah Shalallahu ‘Alaihi wa Sallam berkata, “Siapa yang usai makan, kemudian berdoa, “Alhamdulilahil Ladzii Ath’amani Hadzath Tha’sama wa Razaqanihi Min Ghairi Haulim Minnii Walaa Quwwah’ (Segala puji bagi Allah yang telah memberiku makanan ini, dan memberi rezekiku ini tanpa kesusahan dan kekuatan dariku), maka akan dimaafkan segala dosa yang telah lalu darinya.”
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HgP-22-w0U" firstAttribute="leading" secondItem="aqK-w7-eZh" secondAttribute="leading" id="3cU-kK-IC5"/>
+                            <constraint firstItem="HgP-22-w0U" firstAttribute="bottom" secondItem="aqK-w7-eZh" secondAttribute="bottom" id="IIc-3U-23d"/>
+                            <constraint firstItem="HgP-22-w0U" firstAttribute="trailing" secondItem="aqK-w7-eZh" secondAttribute="trailing" id="Pmm-Vl-Jll"/>
+                            <constraint firstItem="HgP-22-w0U" firstAttribute="top" secondItem="aqK-w7-eZh" secondAttribute="top" id="zqL-48-X5s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aqK-w7-eZh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J09-E1-5PR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997.60000000000002" y="901.79910044977521"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tq8-tk-22Q">
+            <objects>
+                <navigationController id="DVp-vz-h04" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5Xw-QL-LKf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ymA-tj-luZ" kind="relationship" relationship="rootViewController" id="dR9-iB-DCP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HSW-9W-AE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1575" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_20171102_075604_642.jpg" width="1000" height="1179"/>
+        <image name="Id Gambar.png" width="741" height="741"/>
+        <image name="exit.png" width="512" height="512"/>
+        <image name="geometry-background.png" width="800" height="600"/>
+        <image name="unnamed.jpg" width="900" height="900"/>
+        <image name="woodTextureBackground.png" width="1600" height="800"/>
+    </resources>
+</document>
