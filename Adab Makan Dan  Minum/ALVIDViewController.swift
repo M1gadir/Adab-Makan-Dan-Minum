@@ -9,11 +9,15 @@
 import UIKit
 import AVKit
 class ALVIDViewController: UIViewController {
-
+    @IBOutlet weak var mul: UIButton!
+    @IBOutlet weak var pla: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        mul.layer.cornerRadius = 20.0
+        mul.layer.masksToBounds = true
+        pla.layer.cornerRadius = 10.0
+        pla.layer.masksToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

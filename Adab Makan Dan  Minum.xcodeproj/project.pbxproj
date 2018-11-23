@@ -10,6 +10,19 @@
 		E442C70321804F1900210869 /* IMG_20171102_075604_642.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E442C70221804F1900210869 /* IMG_20171102_075604_642.jpg */; };
 		E442C70521804F1E00210869 /* woodTextureBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E442C70421804F1D00210869 /* woodTextureBackground.png */; };
 		E442C70721805BF700210869 /* Id Gambar.png in Resources */ = {isa = PBXBuildFile; fileRef = E442C70621805BF600210869 /* Id Gambar.png */; };
+		E44B5D852188587E00A83E3F /* borderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B5D842188587E00A83E3F /* borderViewController.swift */; };
+		E44B5D8721885AC100A83E3F /* textViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B5D8621885AC100A83E3F /* textViewController.swift */; };
+		E44B5D892188600600A83E3F /* tex2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B5D882188600600A83E3F /* tex2ViewController.swift */; };
+		E44B5D8B2188AC6C00A83E3F /* icon launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E44B5D8A2188AC6B00A83E3F /* icon launchscreen.png */; };
+		E44B5D8D2189326D00A83E3F /* aboutdevelop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B5D8C2189326D00A83E3F /* aboutdevelop.swift */; };
+		E453CD9F2188151A00D34935 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453CD9E2188151A00D34935 /* webViewController.swift */; };
+		E453CDA1218842A000D34935 /* IDNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453CDA0218842A000D34935 /* IDNViewController.swift */; };
+		E469EF782189418F006DF6DF /* instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E469EF752189418D006DF6DF /* instagram-logo.png */; };
+		E469EF792189418F006DF6DF /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = E469EF762189418E006DF6DF /* facebook.png */; };
+		E469EF7B21895842006DF6DF /* igViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469EF7A21895842006DF6DF /* igViewController.swift */; };
+		E469EF7F21895855006DF6DF /* youtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469EF7E21895855006DF6DF /* youtViewController.swift */; };
+		E469EF83218966F9006DF6DF /* offiicial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E469EF82218966F4006DF6DF /* offiicial.mp4 */; };
+		E470A2AD21A6F0E100B5F8BF /* YT.png in Resources */ = {isa = PBXBuildFile; fileRef = E470A2AC21A6F0E100B5F8BF /* YT.png */; };
 		E47BA746217D853900876009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BA745217D853900876009 /* AppDelegate.swift */; };
 		E47BA748217D853900876009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BA747217D853900876009 /* ViewController.swift */; };
 		E47BA74B217D853900876009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47BA749217D853900876009 /* Main.storyboard */; };
@@ -26,6 +39,19 @@
 		E442C70221804F1900210869 /* IMG_20171102_075604_642.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_20171102_075604_642.jpg; path = ../../../Downloads/IMG_20171102_075604_642.jpg; sourceTree = "<group>"; };
 		E442C70421804F1D00210869 /* woodTextureBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woodTextureBackground.png; path = ../../../Downloads/woodTextureBackground.png; sourceTree = "<group>"; };
 		E442C70621805BF600210869 /* Id Gambar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Id Gambar.png"; path = "../../../Downloads/Id Gambar.png"; sourceTree = "<group>"; };
+		E44B5D842188587E00A83E3F /* borderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderViewController.swift; sourceTree = "<group>"; };
+		E44B5D8621885AC100A83E3F /* textViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textViewController.swift; sourceTree = "<group>"; };
+		E44B5D882188600600A83E3F /* tex2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tex2ViewController.swift; sourceTree = "<group>"; };
+		E44B5D8A2188AC6B00A83E3F /* icon launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon launchscreen.png"; path = "../../../Downloads/icon launchscreen.png"; sourceTree = "<group>"; };
+		E44B5D8C2189326D00A83E3F /* aboutdevelop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutdevelop.swift; sourceTree = "<group>"; };
+		E453CD9E2188151A00D34935 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		E453CDA0218842A000D34935 /* IDNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDNViewController.swift; sourceTree = "<group>"; };
+		E469EF752189418D006DF6DF /* instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instagram-logo.png"; path = "../../../Downloads/instagram-logo.png"; sourceTree = "<group>"; };
+		E469EF762189418E006DF6DF /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = ../../../Downloads/facebook.png; sourceTree = "<group>"; };
+		E469EF7A21895842006DF6DF /* igViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igViewController.swift; sourceTree = "<group>"; };
+		E469EF7E21895855006DF6DF /* youtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtViewController.swift; sourceTree = "<group>"; };
+		E469EF82218966F4006DF6DF /* offiicial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = offiicial.mp4; path = ../../../Downloads/offiicial.mp4; sourceTree = "<group>"; };
+		E470A2AC21A6F0E100B5F8BF /* YT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YT.png; sourceTree = "<group>"; };
 		E47BA742217D853900876009 /* Adab Makan Dan  Minum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adab Makan Dan  Minum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47BA745217D853900876009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E47BA747217D853900876009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +80,7 @@
 		E47BA739217D853900876009 = {
 			isa = PBXGroup;
 			children = (
+				E469EF82218966F4006DF6DF /* offiicial.mp4 */,
 				E4AAA0C0217DB4FD00DBCE81 /* Adab.mp4 */,
 				E47BA744217D853900876009 /* Adab Makan Dan  Minum */,
 				E47BA743217D853900876009 /* Products */,
@@ -63,6 +90,10 @@
 				E442C70221804F1900210869 /* IMG_20171102_075604_642.jpg */,
 				E442C70421804F1D00210869 /* woodTextureBackground.png */,
 				E442C70621805BF600210869 /* Id Gambar.png */,
+				E44B5D8A2188AC6B00A83E3F /* icon launchscreen.png */,
+				E469EF762189418E006DF6DF /* facebook.png */,
+				E469EF752189418D006DF6DF /* instagram-logo.png */,
+				E470A2AC21A6F0E100B5F8BF /* YT.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,14 @@
 				E4AAA0BD217DB1B800DBCE81 /* ALVIDViewController.swift */,
 				E47BA747217D853900876009 /* ViewController.swift */,
 				E47BA749217D853900876009 /* Main.storyboard */,
+				E469EF7A21895842006DF6DF /* igViewController.swift */,
+				E469EF7E21895855006DF6DF /* youtViewController.swift */,
+				E44B5D8C2189326D00A83E3F /* aboutdevelop.swift */,
+				E44B5D882188600600A83E3F /* tex2ViewController.swift */,
+				E44B5D8621885AC100A83E3F /* textViewController.swift */,
+				E44B5D842188587E00A83E3F /* borderViewController.swift */,
+				E453CDA0218842A000D34935 /* IDNViewController.swift */,
+				E453CD9E2188151A00D34935 /* webViewController.swift */,
 				E47BA74C217D853B00876009 /* Assets.xcassets */,
 				E47BA74E217D853B00876009 /* LaunchScreen.storyboard */,
 				E47BA751217D853B00876009 /* Info.plist */,
@@ -149,12 +188,17 @@
 				E4AAA0C5217DD38100DBCE81 /* unnamed.jpg in Resources */,
 				E47BA750217D853B00876009 /* LaunchScreen.storyboard in Resources */,
 				E4AAA0BC217DAC8400DBCE81 /* exit.png in Resources */,
+				E469EF792189418F006DF6DF /* facebook.png in Resources */,
 				E47BA74D217D853B00876009 /* Assets.xcassets in Resources */,
+				E470A2AD21A6F0E100B5F8BF /* YT.png in Resources */,
 				E442C70321804F1900210869 /* IMG_20171102_075604_642.jpg in Resources */,
 				E4AAA0C4217DD38100DBCE81 /* geometry-background.png in Resources */,
 				E442C70521804F1E00210869 /* woodTextureBackground.png in Resources */,
+				E44B5D8B2188AC6C00A83E3F /* icon launchscreen.png in Resources */,
 				E47BA74B217D853900876009 /* Main.storyboard in Resources */,
+				E469EF782189418F006DF6DF /* instagram-logo.png in Resources */,
 				E4AAA0C1217DB50600DBCE81 /* Adab.mp4 in Resources */,
+				E469EF83218966F9006DF6DF /* offiicial.mp4 in Resources */,
 				E442C70721805BF700210869 /* Id Gambar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +212,15 @@
 			files = (
 				E4AAA0BE217DB1B800DBCE81 /* ALVIDViewController.swift in Sources */,
 				E47BA748217D853900876009 /* ViewController.swift in Sources */,
+				E469EF7B21895842006DF6DF /* igViewController.swift in Sources */,
+				E44B5D8D2189326D00A83E3F /* aboutdevelop.swift in Sources */,
+				E453CDA1218842A000D34935 /* IDNViewController.swift in Sources */,
 				E47BA746217D853900876009 /* AppDelegate.swift in Sources */,
+				E469EF7F21895855006DF6DF /* youtViewController.swift in Sources */,
+				E44B5D852188587E00A83E3F /* borderViewController.swift in Sources */,
+				E44B5D892188600600A83E3F /* tex2ViewController.swift in Sources */,
+				E44B5D8721885AC100A83E3F /* textViewController.swift in Sources */,
+				E453CD9F2188151A00D34935 /* webViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
